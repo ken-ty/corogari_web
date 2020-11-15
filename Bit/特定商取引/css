@@ -1,0 +1,36 @@
+@charset "euc-jp";
+.container-section {
+  border-top: 1px solid #e7e7e7;
+  margin-bottom: 60px;
+  padding-top: 40px;
+}
+
+.shopkeeper-h2 {
+  text-align: left;
+  margin: 0 0 20px;
+  padding: 0 15px;
+}
+
+.def-lst {
+  margin: 0;
+  padding: 0 15px;
+}
+  .def-lst-dd {
+    margin: 0;
+    padding: 0 0 20px;
+  }
+
+@media (max-width: 768px) {
+  .container-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .shopkeeper-h2 {
+    padding: 0 4px;
+  }
+  .def-lst {
+    padding: 0 4px;
+  }
+}
