@@ -1,0 +1,276 @@
+<{if $slideshow_html}>
+<div class="slider">
+	<{$slideshow_html}>
+</div>
+<script type="text/javascript">
+	//<![CDATA[
+	$(function(){
+		$('#slider').bxSlider({
+			auto: true,
+			pause: 4000,
+			speed: 1000,
+			controls: false,
+			captions: true,
+			mode: 'fade',
+			pager: true,
+			responsive: true
+		});
+	});
+	//]]>
+</script>
+<div style="padding-bottom:20px;">
+</div>
+<{* お知らせ 戸倉 *}>
+<div style="padding-bottom:20px;" id="infomation">
+	<h2 class="ttl-h2"><span class="google-font">お知らせ</span></h2>
+	<h3>
+		イベント案内: ゲムマ戦利品撮影ひな壇(トッカン)を設置いたしました！
+	</h3>
+	<img src="https://img21.shop-pro.jp/PA01402/566/etc/135866.jpg?cmsp_timestamp=20201115185528" alt="" style="width : 50%; padding-bottom: 20px;">
+
+
+	<p>
+		戦利品を並べて写真をとりませんか？期間限定でひな壇を設置いたします。
+		ご自由に使用、撮影してください。
+		<br>※期間は１週間ほどを予定しております。
+
+	</p>
+	<h3>
+		新着ゲーム 2020/11/15 更新
+	</h3>
+	<p>
+		ゲームマーケット2020秋の新作も！ゲムマに行った気分を味わえます。。
+	</p>
+	<li>TOKYO HIGHWAY</li>
+	<li>虚飾で彩られたカラス</li>
+	<li>SCOUT!</li>
+	<li>悪魔でお仕事</li>
+	<li>THE THE THE THE TOWER</li>
+	<li>Tissuereal ティシュール</li>
+	<li>ジグザ</li>
+	<li>疑心暗鬼の小屋</li>
+	<li>ボードゲームデザインパターン</li>
+	<li>ボードゲームのカタログと未来:図書館でボドゲやりたいから目録が必要な件について(報告書(簡易版))<li>
+	<li>ゴブレットごブラーズ</li>
+	<li>BOARD GAME PLACES 100 世界のボードゲームカフェ・ショップ Vol.1</li>
+</div>
+<{/if}>
+<{* コロガリ三昧とは 戸倉 *}>
+<div id="whoami">
+	<h2 class="ttl-h2"><span class="google-font">コロガリ三昧とは</span></h2>
+	<img src="https://img21.shop-pro.jp/PA01402/566/etc/135867.jpg?cmsp_timestamp=20201115185356" alt="" style="float:left; width:50%;">
+	<img src="https://img21.shop-pro.jp/PA01402/566/etc/134946.jpg?cmsp_timestamp=20201115185420" alt="" style="width:50%;">
+	<br style="clear:both; ">
+	<br>
+	<p>
+		「コロガリ三昧」は世界中のボードゲームが遊べるボードゲームスペースです。初めて遊ぶ方も楽しめるようなパーティゲームや、通が唸るようなギークなゲームまで取り揃えております。併設のギフトショップでは100種類以上のトランプを販売しております。
+	</p>
+	<p>		
+		ボードゲームをプレイするためには、「ゲーム」と「プレイヤー」と「場所」と「時間」のどれがかけてもできません。
+		コロガリ三昧では、ボードゲームをプレイするにあたって居心地のよい空間を提供いたします。		
+		何者にも妨げられない空間で、思い切り趣味にふけってみませんか。
+	</p>
+	<{* 店内を追加 戸倉 *}>
+	<div id="room">
+		<h2 class="ttl-h2"><span class="google-font">店内</span></h2>
+		<h3>
+			設備・ルール
+		</h3>
+		<li>Wi-Fi 利用可能</li>
+		<li>電源利用可能</li>
+		<li>サイドテーブル利用可能</li>
+		<li>全席禁煙</li>
+		<li>ペットボトルに入った飲料、手が汚れないお菓子などの持ち込み可能</li>
+		<li>ボドゲ持ち込み可能</li>
+		<li><s>電子マネー決済対応</s> (現在: 現金/paypay対応)</li>
+		<h3>
+			席について
+		</h3>
+		<div style="padding-bottom:20px;">
+			<li>
+				5卓 9席+α<br><br>
+				<p>
+					分厚い木製の机をご用意してあります。並べることで4人席や6人席にすることができます。
+					椅子は総革張りのものを9席ご用意してあります。 10席目以降は椅子の種類が変わってしまいますが、いくつか予備がございます。
+				</p>
+			</li>
+		</div>
+		<img src="https://img21.shop-pro.jp/PA01402/566/etc/134956.jpg?cmsp_timestamp=20201113102550" alt="部屋" style="float:left; width:50%;">
+		<img src="https://img21.shop-pro.jp/PA01402/566/etc/134954.jpg?cmsp_timestamp=20201113102516" alt="部屋" style="width:50%;">
+		<br style="clear:both;">
+		<h3 id="boardgame">
+			ボードゲーム
+		</h3>
+		<p>
+			当店には１５分ほどでお手軽に遊べるゲームから、プレイに半日かかる重量級ゲームような重量級ゲームまで取り揃えております。
+			ルールでわからないことがありましたら、お気軽にスタッフにご質問ください。※スタッフは全てのルールを把握しているわけではございません。<br>
+		</p>
+		<img src="https://img21.shop-pro.jp/PA01402/566/etc/134946.jpg?cmsp_timestamp=20201114000250" alt="棚1" style="float:left; width:50%;">
+
+		<img src="https://img21.shop-pro.jp/PA01402/566/etc/134947.jpg?cmsp_timestamp=20201114000328" alt="棚2" style="float:left; width:50%;">
+
+		<br style="clear:both;">
+		<h4>
+			遊べるボードゲーム例
+		</h4>
+		<li>ペンギンパーティ</li>
+		<li>宝石の煌き</li>
+		<li>IKI : 江戸職人物語</li>
+		<li>etc...</li><br><br>
+		<div style="padding-bottom:20px;">
+			<a href="https://bodoge.hoobby.net/spaces/corogari/games" style="text-decoration : none;">
+				<button class="btn btn-lg">ボードゲーム一覧はこちら</button>
+			</a>
+		</div>
+	</div>
+	<{* 営業時間を追加 戸倉 *}>
+	<div id="opentime" style="font-size:medium;">
+		<h2 class="ttl-h2"><span class="google-font">営業時間</span></h2>
+		<table class="opentime_table" style="text-align:center">
+			<tbody>
+				<tr>
+					<td>曜日</td>
+					<td>営業時間</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>月～金</td>
+					<td>17:00～21:00</td>
+				</tr>
+				<tr>
+					<td>土日祝</td>
+					<td>13:00～21:00</td>
+				</tr>
+			</tbody>
+		</table>
+		<li class="google-font">
+			平日でも、スタッフの都合がつけば13:00から開店できます。
+			備考にその旨をお書きください。（早めにご相談していただけると都合が付きやすいです。)
+		</li>
+		<li class="google-font">
+			予約がない日は<b style="  text-decoration : underline;">開店していないことがございます</b>。ご了承くださいませ。
+			※その他臨時休業日や臨時営業時間はその都度SNS等で告知いたします。
+			<br>
+		</li>
+	</div>
+	<{* 料金を追加 戸倉 *}>
+	<div id="payment">
+		<h2 class="ttl-h2"><span class="google-font">料金</span></h2>
+		<img src="https://img21.shop-pro.jp/PA01402/566/etc/%CE%C1%B6%E2%C9%BD.png?cmsp_timestamp=20201112040005" alt="料金表" style="width:　100%; padding-bottom:20px;">
+		<span style="font-size:medium;">例：平日に4時間30分遊ぶ場合<br></span>
+		<span style="font-size:medium;">3時間 800円 ＋ 1時間 300円 ＋ 30分 150円 ＝ 1250円</span>
+	</div>
+
+	<{* MAPを追加 戸倉 *}>
+	<div id="map">
+		<h2 class="ttl-h2"><span class="google-font">MAP</span></h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12287.821416608414!2d139.38815307275345!3d36.143771562806116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f29b96e74682b%3A0x44ae35ed185b02b8!2z44CSMzYwLTAwMzcg5Z-8546J55yM54aK6LC35biC562R5rOi77yR5LiB55uu77yR77yT77yW!5e0!3m2!1sja!2sjp!4v1605122285456!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+
+	<{* 予約を追加 戸倉 *}>
+	<div id=reservation style="text-align:center;">
+		<h2 class="ttl-h2"><span class="google-font">予約</span></h2>
+		<div style="padding-bottom:20px;">
+			<a href="http://corogari.jp/?mode=f1" style="text-decoration : none;">	<button class="btn btn-lg">予約はこちら</button>
+			</a>
+		</div>
+		<a href="http://corogari.jp/?mode=f2" style="text-decoration : none;"><button class="btn  btn-lg">イベント/貸し切り予約はこちら</button></a>
+	</div>
+	<{if $recommend_num != 0 || $seller_num != 0}>
+	<div class="recommend-items" id="recommend-items">
+		<h2 class="ttl-h2"><span class="google-font">ギフトショップ</span></h2>
+		<p>
+			店頭では、実際にトランプを手にとってカードや箱の触り心地も含めて体験できます。
+			開封済みのトランプサンプルだけでも100近くありますので、何時間でも比較して楽しんでいただけます。
+		</p>
+		<ul class="prd-lst row unstyled">
+			<{section name=num loop=$recommend}>
+			<li class="prd-lst-unit col col-xs-12 col-sm-6 col-lg-4">
+				<a href="<{$recommend[num].link_url}>" class="prd_lst_link">
+					<{if $recommend[num].img_url != ""}>
+					<img src="<{$recommend[num].img_url}>" class="prd-lst-img" alt="<{$recommend[num].name}>" />
+					<{else}>
+					<img src="https://img.shop-pro.jp/tmpl_img/69/prd_lst_noimage.png" class="prd-lst-img" alt="<{$recommend[num].name}>" />
+					<{/if}>
+				</a>
+				<span class="prd-lst-name prd-lst-span">
+					<a href="<{$recommend[num].link_url}>"><{$recommend[num].name}></a>
+				</span>
+				<{if $recommend[num].soldout_flg == false}>
+				<{if $members_login_flg == true && $recommend[num].discount_flg == true}>
+				<span class="prd-lst-regular prd-lst-span"><{$recommend[num].regular_price}></span>
+				<{/if}>
+				<span class="prd-lst-price prd-lst-span"><{$recommend[num].price}></span>
+				<{if $members_login_flg == true && $recommend[num].discount_flg == true}>
+				<span class="prd-lst-discount prd-lst-span"><{$recommend[num].discount_rate}>OFF!!</span>
+				<{/if}>
+				<{else}>
+				<span class="prd-lst-soldout prd-lst-span">SOLDOUT</span>
+				<{/if}>
+			</li>
+			<{/section}>
+			<{section name=num loop=$seller}>
+			<li class="prd-lst-unit col col-xs-12 col-sm-6 col-lg-4">
+				<a href="<{$seller[num].link_url}>" class="prd_lst_link">
+					<{if $seller[num].img_url != ""}>
+					<img src="<{$seller[num].img_url}>" class="prd-lst-img" alt="<{$seller[num].name}>" />
+					<{else}>
+					<img src="https://img.shop-pro.jp/tmpl_img/69/prd_lst_noimage.png" class="prd-lst-img" alt="<{$seller[num].name}>" />
+					<{/if}>
+				</a>
+				<span class="prd-lst-name prd-lst-span">
+					<a href="<{$seller[num].link_url}>"><{$seller[num].name}></a>
+				</span>
+				<{if $seller[num].soldout_flg == false}>
+				<{if $members_login_flg == true && $seller[num].discount_flg == true}>
+				<span class="prd-lst-regular prd-lst-span"><{$seller[num].regular_price}></span>
+				<{/if}>
+				<span class="prd-lst-price prd-lst-span"><{$seller[num].price}></span>
+				<{if $members_login_flg == true && $seller[num].discount_flg == true}>
+				<span class="prd-lst-discount prd-lst-span"><{$seller[num].discount_rate}>OFF!!</span>
+				<{/if}>
+				<{else}>
+				<span class="prd-lst-soldout prd-lst-span">SOLDOUT</span>
+				<{/if}>
+			</li>
+			<{/section}>
+		</ul>
+		<{* もっとみるを追加 戸倉 *}>
+		<a href="/?mode=srh&amp;cid=&amp;keyword=">
+			<button class="btn btn-block">もっと見る</button>
+		</a>
+		<!--
+<a href="/?mode=srh&amp;cid=&amp;keyword=">
+<p style="text-align:center">
+もっと見る
+</p>
+</a>
+-->
+	</div>
+	<{* ツイッターを追加 戸倉 *}>
+	<h2 class="ttl-h2"><span class="google-font">Twitter</span></h2>
+	<div style="margin: 0 auto; width:80%; max-width:600px">
+		<a class="twitter-timeline" data-lang="ja" data-width="1000" data-height="800" href="https://twitter.com/corogarigames?ref_src=twsrc%5Etfw">Tweets by corogarigames</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+	<{/if}>
+	<{if $info != ""}>
+
+	<div class="row">
+		<div class="col col-lg-12">
+			<{$info}>
+			<!-- フリー文字削除 -->
+			<!--
+</div>
+</div>
+-->
+			<{/if}>
+			<{if $free_space != ""}>
+			<!-- フリー文字削除 -->
+			<!--
+<div class="row">
+<div class="col col-lg-12">
+<{$free_space}>
+</div>
+</div>
+-->
+			<{/if}>
