@@ -1,0 +1,20 @@
+/* 戸倉 変更 */
+.p-page__wrap {
+  background-color: #ffd9ec;
+}
+.c-alert {
+  display : none;
+}
+.p-page__container {
+  background-color: #ffd9ec;
+}
+
+.p-page__body-inner {
+  border:none;
+}
+
+/*
+.c-button__group--sub {
+  display : none;
+}
+*/
