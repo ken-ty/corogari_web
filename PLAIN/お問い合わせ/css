@@ -1,0 +1,579 @@
+@charset "euc-jp";
+
+/* ************************************************
+* ------------------------------------------------
+*	お問い合わせ CSS
+* ------------------------------------------------
+* ************************************************ */
+
+/* ショップへ戻るリンク */
+.back_shop_link {
+  text-align:right;
+  margin-top:10px;
+  padding-right:10px;
+  font-size:11px;
+}
+
+
+/* エラーBOX */
+.errorbox{
+  background:#FFF url(https://secure.shop-pro.jp/img2/ic_alart.png) no-repeat 10px 7px;
+  border:3px solid #FF0000;
+  padding:8px 5px 8px 40px;
+  color:#FF0000;
+  font-weight:bold;
+  text-align:left;
+  margin:10px 10px 0;
+}
+
+/* エラーメッセージ */
+.errormsg{
+  color:#FF0000;
+}
+
+
+/* お問い合わせコンテンツ セクション */
+.contact_wrap {
+  margin:10px 0 45px;
+}
+
+
+/* 見出し */
+.tit_contact {
+  padding:0px 10px;
+}
+
+
+/* お問い合わせフォーム説明 */
+.txt_contact_desc {
+  margin:10px 10px 0;
+  padding-bottom:10px;
+  border-bottom:1px solid #ccc;
+  font-size:14px;
+}
+
+
+/* フォームコンテンツ */
+.group_form {
+  margin:10px;
+}
+
+
+/* フォームコンテンツラベル */
+.group_form dt {
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+/* フォームコンテンツ 入力部分 */
+.group_form dd {
+  padding-bottom:25px;
+}
+
+
+/* フォームコンテンツ 入力フォーム */
+.group_form dd input {
+  font-size:16px;
+  line-height:1.4;
+  width:99%;
+  padding:5px 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border:#666666 solid 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3),
+    color-stop(0.1, #f3f3f3),
+    color-stop(0.2, #fff),
+    to(#fff));
+}
+
+
+/* フォームコンテンツ テキストフォームサイズ調整 */
+.group_form_comment {
+  padding-right:5px;
+}
+
+
+/* フォームコンテンツ テキストフォーム */
+.group_form dd textarea {
+  font-size:16px;
+  line-height:1.4;
+  width:99%;
+  height:200px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border:#666666 solid 2px;
+  margin-right:10px;
+}
+
+
+/* 必須項目マーク */
+.note {
+  color:#e66b6b;
+  font-weight:bold;
+}
+
+.mail_confirm {
+  font-size:12px;
+  margin:10px 0 5px;
+  color:#e66b6b;
+  font-weight:bold;
+  display:block;
+}
+
+
+/* 送信ボタン */
+.btn_contact_send input{
+  background-color:#2196f3;
+  padding:6px;
+  margin:0 auto;
+  color:#FFF;
+  border: none;
+  font-weight:bold;
+  font-size:18px;
+  text-decoration:none;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  -webkit-transition:0.1s linear all;
+  -moz-transition:0.1s linear all;
+  -ms-transition:0.1s linear all;
+  -o-transition:0.1s linear all;
+  transition:0.1s linear all;
+  display:block;
+  width:200px;
+  text-align:center;
+}
+
+/* 戻るボタン */
+.btn_back_shop input{
+  background-color:#FFCC00;
+  padding:3px;
+  margin:0 auto;
+  color:#FFF;
+  font-weight:bold;
+  font-size:16px;
+  text-decoration:none;
+  border:none;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  -webkit-transition:0.1s linear all;
+  -moz-transition:0.1s linear all;
+  -ms-transition:0.1s linear all;
+  -o-transition:0.1s linear all;
+  transition:0.1s linear all;
+  display:block;
+  width:100px;
+  text-align:center;
+}
+
+
+/* ページの先頭へ */
+.btn_pagetop {
+  text-align:right;
+  padding:0 10px;
+  background-color:#9b9b9b;
+  padding:8px 10px;
+}
+
+.btn_pagetop a{
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#ffffff;
+  text-align:center;
+  text-decoration:none;
+  padding:5px 8px;
+  color:#555555;
+  display:block;
+  float:right;
+  font-weight:bold;
+  font-size:12px;
+  -moz-box-shadow: 0px 1px 2px #787878;
+  -webkit-box-shadow: 0px 1px 2px #787878;
+}
+
+/* メッセージ送信済み */
+.txt_confirm_msg {
+  margin:10px 10px 45px;
+}
+
+
+/* フッターエリア */
+.footer_secure {
+  margin:0 10px;
+  padding-top:15px;
+}
+
+.footer_secure address {
+  font-style: normal;
+  font-size:11px;
+  text-align:center;
+  font-family:Verdana;
+}
+
+
+/* SSL セキュリティシール */
+.secure_seal {
+  margin-top:10px;
+}
+
+.secure_seal dt {
+  float:left;
+  width:120px;
+  display:block;
+  text-align: left;
+}
+
+.secure_seal dd {
+  display:block;
+  margin-left:130px;
+  line-height:1.2em;
+  color:#999999;
+  font-size:10px;
+  padding-top:16px;
+}
+
+
+/* 追加CSS for "https://naeco.jp/contact-page" */
+@charset "euc-jp";
+
+/* ************************************************
+* ------------------------------------------------
+*	お問い合わせ CSS
+* ------------------------------------------------
+* ************************************************ */
+body {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+a {
+  color: #4183c4;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+/* ショップタイトル */
+.shop_title {
+  /*color: #222;*/
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* タイトル下のコンテナ部 */
+.base01.p-page__container {
+  margin: 0 auto;
+  width: auto;
+  border-top: 2px solid #f6f6f6;
+  border-bottom: 2px solid #f6f6f6;
+  padding: 20px;
+}
+
+/* タイトル下のコンテナ部のインナー */
+.p-page__body {
+  color: #222;
+}
+
+/* ショップへ戻るリンク */
+.back_shop_link {
+  margin: 20px 0 30px;
+  text-align: right;
+}
+
+.back_shop_link a {
+  font-size: 12px;
+  background: #eff2f4;
+  line-height: 1;
+  font-size: 13px;
+  padding: .75em 1.5em;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: inset 0 -0.1em 0 rgba(0, 0, 0, 0.1);
+}
+
+.back_shop_link a,
+.back_shop_link a:link,
+.back_shop_link a:hover,
+.back_shop_link a:active,
+.back_shop_link a:visited {
+  margin: 0 7px;
+  color: #35454c;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+/* エラーBOX */
+.errorbox {
+  background: #feedeb;
+  padding: 20px;
+  color: #f44336;
+  font-weight: bold;
+  text-align: left;
+  margin: 30px 0;
+  line-height: 1.6;
+}
+
+/* エラーメッセージ */
+.errormsg {
+  color: #FF0000;
+}
+
+/* お問い合わせコンテンツ セクション */
+.contact_wrap {
+  margin: 0;
+}
+
+/* 見出し */
+.tit_contact {
+  color: #222;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin: 10px 0 30px;
+  line-height: 1.5;
+}
+
+
+/* お問い合わせフォーム説明 */
+.txt_contact_desc {
+  color: #607d8b;
+  background: #eff2f4;
+  padding: 20px;
+  margin: 30px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+/* フォームコンテンツ */
+.group_form {}
+
+/* フォームコンテンツラベル */
+.group_form dt {
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  padding: .5em 0 0;
+}
+
+/* フォームコンテンツ 入力部分 */
+.group_form dd {
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+/* フォームコンテンツ 入力フォーム */
+.group_form dd input {
+  width: 100%;
+  padding: 7px;
+  border: 2px solid #d7dee2;
+  font-size: 13px;
+  margin-top: 0;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em .5em;
+  font-size: 16px;
+  -webkit-appearance: none;
+}
+
+/* フォームコンテンツ テキストフォームサイズ調整 */
+.group_form_comment {
+  padding-right: 5px;
+}
+
+/* フォームコンテンツ テキストフォーム */
+.group_form dd textarea {
+  font-size: 16px;
+  line-height: 1.4;
+  width: 99%;
+  height: 200px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: #d7dee2 solid 2px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+}
+
+/* 必須項目マーク */
+.note {
+  color: transparent;
+}
+
+.note:before {
+  color: #222;
+  content: '（必須）';
+}
+
+.note.mail_confirm {
+  color: #222;
+  font-size: 12px;
+  margin: .3em 0;
+  display: block;
+}
+
+
+/* 送信ボタン */
+.btn_contact_send {
+  margin: 20px 0;
+}
+
+.btn_contact_send input {
+  background-color: #2196f3;
+  padding: 1em 0;
+  margin: 20p 0;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -ms-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.btn_contact_send input[disabled] {
+  background: #d0d8dc;
+  color: #eff2f4;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* 戻るボタン */
+.btn_back_shop {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn_back_shop input {
+  background: #eff2f4;
+  line-height: 1;
+  font-size: 16px;
+  padding: 1em 3.6em;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: inset 0 -0.1em 0 rgba(0, 0, 0, 0.1);
+  margin: 0 7px;
+  color: #35454c;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+/* ページの先頭へ */
+.btn_pagetop {
+  text-align: right;
+  padding: 0 10px;
+  background-color: #9b9b9b;
+  padding: 8px 10px;
+}
+
+.btn_pagetop a {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 8px;
+  color: #555555;
+  display: block;
+  float: right;
+  font-weight: bold;
+  font-size: 12px;
+  -moz-box-shadow: 0px 1px 2px #787878;
+  -webkit-box-shadow: 0px 1px 2px #787878;
+}
+
+/* メッセージ送信済み */
+.txt_confirm_msg {
+  color: #4caf50;
+  background: #edf7ee;
+  font-weight: bold;
+  padding: 20px;
+  margin: 30px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* フッターエリア */
+.footer_secure {
+  margin: 20px 0;
+}
+
+.footer_secure address {
+  font-style: normal;
+  font-size: 11px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+/* SSL セキュリティシール */
+.secure_seal {
+  margin-top: 10px;
+}
+
+.secure_seal dt {
+  float: left;
+  width: 120px;
+  display: block;
+  text-align: left;
+}
+
+.secure_seal dd {
+  display: block;
+  margin-left: 130px;
+  line-height: 1.2em;
+  color: #999999;
+  font-size: 10px;
+  padding-top: 16px;
+}
+
+/* 戸倉 変更 */
+html {
+  background-color: #ffd9ec;
+}
+body {
+  background-color: #ffd9ec;
+}
+.base02 {
+  background-color: #ffd9ec;
+}
+/* 戸倉　変更ここまで */
