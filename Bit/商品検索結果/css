@@ -1,0 +1,17 @@
+.search_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-srh__text-area {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-lg-b.icon-search {
+  background-position: -312px -24px;
+}
